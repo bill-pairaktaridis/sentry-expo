@@ -71,6 +71,8 @@ module.exports = async options => {
         '--ext',
         'map',
         '--rewrite',
+        '--validate',
+        '--finalize'
       ],
       {
         cwd: tmpdir,
